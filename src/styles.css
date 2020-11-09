@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  text-align: center
+}
+
+
+.main form,
+.main .details {
+  width: 600px;
+  border: 1px solid #ddd;
+  margin: 15px;
+  padding: 23px;
+  text-align: center;
+  margin-left: 630px;
+}
+
+.main .details > div {
+  margin: 15px;
+  font-weight: 200;
+}
+
+.main .details > h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 300px;
+}
+
+input{
+  padding: 15px;
+  margin: 10px
+}
+
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+h3 {
+  margin: 5px;
+  padding: 15px 15px 0px 15px;
+  font-weight: 300;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: red;
+}
